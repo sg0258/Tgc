@@ -1,0 +1,595 @@
+@media only screen and (min-width: 1200px){
+    /* header */
+
+header {
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90px;
+    z-index: 99;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .logo h1 {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.header .logo span {
+    line-height: 3;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header .navigation-bar {
+    line-height: 4;
+    width: 70%;
+}
+
+.header .navigation-bar nav {
+    width: 100%;
+}
+
+.header .navigation-bar nav i {
+    display: none;
+}
+
+.header .navigation-bar nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .navigation-bar nav ul li {
+    list-style-type: none;
+}
+
+.header .navigation-bar nav ul li a {
+    text-decoration: none;
+    position: relative;
+    transition: 1s;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.header .navigation-bar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header .call {
+    text-align: center;
+    line-height: 4.5;
+}
+
+.header .call a {
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.header .call a:hover {
+    border: none;
+}
+
+/* banner */
+
+
+
+.banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner .sub-banner {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 12%;
+}
+
+.banner .sub-banner .main-banner{
+    padding-top: 5%;
+}
+
+.banner .main-banner .heading h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.banner .main-banner .sub-heading p {
+    font-size: 25px;
+    padding: 20px 0px 0px;
+    padding-top: 10px;
+}
+
+.banner .main-banner .bttn button {
+    padding: 20px;
+    border: none;
+    background-color: hsl(183,49%,63%);
+    margin: 15px 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 1s;
+    color: hsl(183,100%,35%);
+}
+
+.banner .main-banner .bttn button:hover {
+    background: none;
+    color: hsl(183,100%,35%);
+}
+
+.banner .main-banner .bttn .btn-2 {
+    background: none;
+}
+
+.banner .main-banner .bttn .btn-2:hover {
+    background-color: hsl(183,49%,63%);
+}
+
+.banner .sub-banner .banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+/* sec-1 */
+
+.sec-1 {
+    position: relative;
+    margin-bottom: 15%;
+    width: 100%;
+}
+
+.sec-1 .main-sec-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1 .main-sec-1 .courses {
+    display: flex;
+    padding: 25px 5px;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 {
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.sec-1 .main-sec-1 .courses .iv-ri{
+    border-right: none;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 h2 {
+    font-size: 20px;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 p {
+    font-size: 15px;
+    margin: 10px 0px 40px;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 a {
+    text-decoration: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.sec-1 .main-sec-1 .courses .div-1 a:hover {
+    background: none;
+    transform: translateY(-20px) scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sec-2 */
+
+
+.sec-2 .main-sec-2 .main-choose {
+    margin-top: 80px;
+}
+
+.sec-2 .main-sec-2 .main-choose .img-div img{
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+}
+
+.sec-2 .main-sec-2 .title h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sec-2 .main-choose {
+    display: flex;
+    gap: 20px;
+}
+
+.sec-2 .main-choose .writen .div-write-1 .sub-1 p {
+    width: 300px;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 130px;
+    display: flex;
+}
+
+.sec-2 .main-choose .writen .div-write-1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.3s;
+}
+
+.sec-2 .main-choose .writen .div-write-1:hover {
+    transform: translateY(-20px) scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* apply now */
+
+.ready {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 11%;
+}
+
+.ready .main-ready {
+    padding: 120px 0px 0px;
+    height: 350px;
+}
+
+.ready .main-ready h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.ready .main-ready p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.ready .main-ready a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* sec-3 */
+.sec-4 {
+    margin-top: 10%;
+}
+
+.sec-4 h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* .sec-4 .main-sec-4 {
+    display: flex;
+} */
+
+.sec-4 .main-sec-4 .first-sec-4 img {
+    width: 100%;
+}
+
+.sec-4 .main-sec-4 .second-sec-4 .classes{
+    justify-content: space-evenly;
+}
+
+
+.sec-4 .main-sec-4 .second-sec-4 .classes .online {
+    line-height: 3;
+    width: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.sec-4 .main-sec-4 .second-sec-4 .classes .online h1 {
+    font-size: 25px;
+}
+
+.sec-4 .main-sec-4 .second-sec-4 .classes .online a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+/* placement-section */
+.sec-3 {
+    margin-top: 10%;
+    width: 100%;
+    display: block;
+}
+
+.sec-3 .pics .main-pics {
+    position: relative;
+    padding: 0px 50px 80px;
+}
+
+.sec-3 .pics .main-pics .place-title h1 {
+    font-size: 50px;
+    padding-top: 3%;
+    font-weight: 800;
+}
+
+.sec-3 .pics .main-pics .place-title p {
+    line-height: 3;
+    font-size: 30px;
+}
+
+.sec-3 .pics .main-pics .div-pic1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* form */
+
+.sec-5 {
+    margin-top: 5%;
+    padding: 0px 12%;
+}
+
+.sec-5 .main-sec-5 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.sec-5 .main-sec-5 .form-1 {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.sec-5 .main-sec-5 .form-1 h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sec-5 .main-sec-5 .form-1 p{
+    text-align: left;
+}
+
+.sec-5 .main-sec-5 .main-form{
+    margin-top: 100px;
+    
+}
+
+.sec-5 .main-sec-5 .main-form form {
+    border-radius: 30px;
+    padding: 80px;
+    margin-left: 40px;
+}
+
+.sec-5 .main-sec-5 .main-form form input {
+    width: 100%;
+    height: 55px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.sec-5 .main-sec-5 .main-form form textarea{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.sec-5 .main-sec-5 .main-form .contact-img{
+    padding-top: 150px;
+    display: block;
+}
+
+.sec-5 .main-sec-5 .main-form form button {
+    width: 30%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/* map */
+.sec-6 {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.sec-6 .map {
+    width: 100%;
+}
+
+.sec-6 .map iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sec-7 */
+
+.sec-7 .sub-sec-7 .ead h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home */
+
+.hometo{
+    margin-top: 8%;
+}
+
+.hometo a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+        padding: 20px 0;
+    margin-top: 8%;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.sec-footer .sub-foot {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.sec-footer .sub-foot .sub-img{
+    width: 20%;
+}
+
+.sec-footer .sub-foot .sub-img img{
+    width: 100%;
+}
+
+.sub-foot .foot-1,
+.sub-foot .foot-2 {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.sub-foot h2 {
+    margin-bottom: 10px;
+}
+
+.sub-foot p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+footer .gif {
+    position: absolute;
+    right: 0px;
+    width: 182px;
+    top: 66%;
+    display: block;
+}
+
+footer .gif img{
+    width: 50%;
+}   
+}

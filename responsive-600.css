@@ -1,0 +1,332 @@
+@media only screen and (min-width: 600px){
+
+
+    header {
+        width: 100%;
+        color: #ffffff;
+        position: fixed;
+        padding: 0px 20px;
+        width: 100%;
+        height: 51px;
+        z-index: 99;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    .header .navigation-bar nav ul {
+        display: none;
+        
+    }
+
+    .header .logo h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .header .call a {
+        text-decoration: none;
+        padding: 6px;
+        border-radius: 10px;
+        font-size: 11px;
+        font-weight: 800;
+        transition: 0.5s;
+    }
+
+    .header .call {
+        text-align: center;
+        line-height: 3;
+        width: 100px;
+    }
+
+
+
+
+
+
+    /* banner */
+    .banner .sub-banner .main-banner {
+        padding-top: 12%;
+        padding-left: 45px;
+    }
+
+    .banner .main-banner .heading h1 {
+        font-size: 42px;
+    }
+
+    .banner .main-banner .sub-heading p {
+        font-size: 20px;
+        padding: 20px 0px 0px;
+        padding-top: 3px;
+    }
+
+    .banner .main-banner .bttn button {
+        padding: 8px;
+        margin: 7px 5px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+    /* sec-1 */
+    .sec-1 {
+        margin-bottom: 15%;
+        width: 100%;
+        padding: 0px;
+        background-image: none;
+        margin-top: 10%;
+        align-items: center;
+        
+    }
+
+    .sec-1 .main-sec-1 .courses {
+        margin-top: 10%;
+        display: block;
+        background-color: hsl(183,100%,35%);
+        box-shadow: #ffffff 0px 0px 20px;
+        padding: 0px;
+    }
+
+    .sec-1 .main-sec-1 .courses .div-1 {
+        text-align: center;
+        border-right: none;
+        padding: 10px 10px 10px;
+    }
+
+    .sec-1 .main-sec-1 .courses .div-1 h2 {
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .sec-2 .main-sec-2 .title h1 {
+        font-size: 19px;
+        font-weight: 800;
+    }
+
+
+
+
+
+
+
+    /* sec-2 */
+
+    .sec-2 .main-sec-2 .main-choose {
+        margin-top: 80px;
+        padding-right: 20px;
+        align-items: center;
+    }
+
+    .sec-2 .main-choose .writen .div-write-1 {
+        text-align: left;
+        background-color: hsl(183,100%,35%);
+        display: flex;
+        border: 2px solid white;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .sec-2 .main-choose .writen .div-write-1 .sub-1 p {
+        width: 230px;
+        align-items: center;
+        color:hsl(183.49%,63%);
+        padding-left: 20px;
+        font-weight: 600;
+        padding: 14px;
+        font-size: 14px;
+        height: auto;
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+    /* ready */
+
+    .ready .main-ready {
+        padding: 45px 0px 0px;
+        height: 199px;
+    }
+
+    .ready .main-ready h1 {
+        font-size: 12px;
+    }
+
+    .ready .main-ready p {
+        font-size: 13px;
+        margin-bottom: 32px;
+    }
+
+    .ready .main-ready a {
+        text-decoration: none;
+        color: hsl(183.49%63%);
+        background-color: hsl(183,100%,35%);
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px #8a7bf8;
+    }
+
+
+
+
+
+
+
+    /* sec-4 */
+    .sec-4 h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .sec-4 .main-sec-4 .second-sec-4 .classes {
+        padding-left: 18px;
+    }
+
+    .sec-4 .main-sec-4 .first-sec-4 img {
+        width: 100%;
+    }
+
+    .sec-4 .main-sec-4 .second-sec-4 .classes .online {
+        line-height: 3;
+        background-color:hsl(183,100%,35%);
+        width: 185px;
+        padding-top: 11px;
+        padding-bottom: 19px;
+        margin-top: 40px;
+    }   
+
+    .sec-4 .main-sec-4 .second-sec-4 .classes .online h1 {
+        color: #ffffff;
+        font-size: 19px;
+    }
+
+    .sec-4 .main-sec-4 .second-sec-4 .classes .online a {
+        color: hsl(183,100%,35%);
+        text-decoration: none;
+        background-color: hsl(183.49%63%);
+        padding: 7px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+    /* placement */
+    .sec-3 {
+        display: none;
+    }
+
+
+
+
+
+
+    /* form */
+    .sec-5 .main-sec-5 .main-form .contact-img {
+        display: none;
+    }
+
+    
+.sec-5 .main-sec-5 .main-form {
+    margin-top: 0px;
+}
+
+.sec-5 .main-sec-5 .main-form form {
+    border-radius: 30px;
+    background-color: #dad1fa;
+    padding: 24px;
+    margin-left: 0px;
+    width: 500px;
+}
+
+.sec-5 .main-sec-5 .form-1 h1 {
+    font-size: 22px;
+    color: hsl(183,100%,35%);
+    font-weight: 800;
+}
+
+.sec-5 .main-sec-5 .form-1 p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.sec-5 .main-sec-5 .main-form form input {
+    width: 100%;
+    height: 42px;
+    box-shadow: 0px 0px 10px #8a7bf8;
+    background-color: hsl(183.49%63%);
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.sec-5 .main-sec-5 .main-form form button {
+    width: 30%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 19px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px #8a7bf8;
+}
+
+
+
+
+
+
+/* faq */
+.sec-7 .sub-sec-7 .ead h1 {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+.accordion-body{
+    font-size: 14px;
+}
+
+}
+
+
+
+
+
+
+/* back home */
+.hometo a {
+    background-color: hsl(183,100%,35%);
+    color:  #8a7bf8;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.sub-foot h2 {
+    font-size: 17px;
+}
+
+.sub-foot p {
+    font-size: 10px;
+}
+
